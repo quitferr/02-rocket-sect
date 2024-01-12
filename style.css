@@ -1,13 +1,65 @@
 body {
   font-family: "JetBrains Mono", monospace;
-  
+  background: #2C2B3D;
+}
+
+.page{
+  width: 1280;
+  margin: 0 auto 0;
+  padding: 71px 89px 23px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 78px 101px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 64px;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.6rem;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #FFF;
+  font-weight: normal;
 }
 
 section p {
   font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  color: #C2C2C2;
+  font-weight: 400;
 }
 
 h1 span, p span {
   color: #00BFA6;
   font-weight: 700;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFF;
+  font-weight: 500;
+  margin-top: 194px;
 }
