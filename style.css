@@ -1,0 +1,13 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  
+}
+
+section p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 span, p span {
+  color: #00BFA6;
+  font-weight: 700;
+}
