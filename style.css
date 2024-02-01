@@ -1,9 +1,10 @@
 body {
   font-family: "JetBrains Mono", monospace;
-  background: #2C2B3D;
+  background: #2c2b3d;
+  text-align: center;
 }
 
-.page{
+.page {
   width: 1280;
   margin: 0 auto 0;
   padding: 71px 89px 23px;
@@ -13,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 78px 101px;
+  margin: 71px 98px 101px 99px;
 }
 
 ul {
@@ -33,25 +34,29 @@ main {
   align-items: center;
   justify-content: space-between;
   gap: 3.6rem;
+  margin: 0 89px 101px 99px;
 }
 
 h1 {
   font-size: 2rem;
   line-height: 2.2rem;
-  color: #FFF;
+  color: #fff;
   font-weight: normal;
+  margin: 6px 0 0 77px;
 }
 
 section p {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.8rem;
-  line-height: 1.5rem;
-  color: #C2C2C2;
+  font-size: 16px;
+  line-height: 28px;
+  color: #c2c2c2;
   font-weight: 400;
+  margin: 58px 0 10px 82px;
 }
 
-h1 span, p span {
-  color: #00BFA6;
+h1 span,
+p span {
+  color: #00bfa6;
   font-weight: 700;
 }
 
@@ -59,7 +64,25 @@ footer {
   font-size: 14px;
   line-height: 28px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   font-weight: 500;
   margin-top: 194px;
+}
+
+#line {
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 27px;
+  border: 1px solid #00BFA6;
+}
+
+#padlock {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  margin: 20px;
+}
+
+#footer {
+  margin-bottom: 23px;
 }
